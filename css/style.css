@@ -1,0 +1,90 @@
+/* Fundo rosa na tela toda */
+body {
+    text-align: center;
+    background-color: rgb(217, 165, 162);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Área do login com fundo branco */
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estiliza os inputs */
+input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estiliza o botão de login */
+button {
+    padding: 10px;
+    background-color: #D99894; /* Tom de rosa para combinar */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #B5736D; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Container para centralizar a tabela */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Cabeçalho da tabela */
+thead {
+    background-color: #D99894; /* Mesma cor dos botões */
+    color: white;
+}
+
+/* Linhas da tabela */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Alternância de cores nas linhas */
+tbody tr:nth-child(even) {
+    background-color: #f8d7da; /* Tom mais claro de rosa */
+}
+
+/* Botão de ação dentro da tabela */
+.tabela-btn {
+    padding: 5px 10px;
+    background-color: #B5736D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.tabela-btn:hover {
+    background-color: #964D47;
+}
